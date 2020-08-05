@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Titillium Web Light Italic'), local('TitilliumWeb-LightItalic'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPFcZTIAOhVxoMyOr9n_E7fdMbepI5DYZyc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Titillium Web Italic'), local('TitilliumWeb-Italic'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPAcZTIAOhVxoMyOr9n_E7fdMbWD6xW.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Titillium Web Bold Italic'), local('TitilliumWeb-BoldItalic'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPFcZTIAOhVxoMyOr9n_E7fdMbetIlDYZyc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Titillium Web Light'), local('TitilliumWeb-Light'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGItzYw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Titillium Web Bold'), local('TitilliumWeb-Bold'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  body{
+      font-family: "Titillium Web", sans-serif;
+      margin: 0;
+  }
+
+  header{
+      background-color: #B3220F;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      top: 0;
+      z-index: 1;
+  }
+
+  .navbar spam{
+      margin-left: 30px;
+      font-size: 35px;
+      font-weight: bold;
+  }
+
+  .navbar a{
+    color: #FFC475;
+    text-decoration-line: none;
+  }
+
+  .logo{
+      height: 50px;
+      align-self: flex-end;
+  }
+
+  #banner{
+      margin-top: 35px;
+      background-image: url(./media/images/banner.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+  }
+
+  #banner h1{
+      margin-top: 0;
+      color: #E9EBED;
+      text-align: center;
+      position: relative;
+      font-size: 60px;
+      top: 225px;
+  }
+
+  #about{
+      background-color: #F16E53;
+      color: #E9EBED;
+      padding: 20px 35px;
+  }
+
+  #about h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 40px;
+  }
+  #about p{
+      font-size: 25px;
+  }
+
+  #about a{
+      text-decoration-line: none;
+      color: #E9EBED;
+      font-style: italic;
+  }
+
+  .gallery{
+      padding: 20px 35px;
+      background-color: #B3220F;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: space-around;
+  }
+
+  .gallery img{
+      margin: 10px 20px;
+  }
+
+  #albums{
+      background-color: #F16E53;
+      color: #E9EBED;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #albums h2{
+      margin-top: 0;
+      text-align: center;
+      font-size: 40px;
+  }
+
+  th, td{
+      border: 4px solid #E9EBED;
+  }
+
+  .albums_table{
+      padding: 0 80px 20px 80px;
+  }
+
+  .album_cover{
+      text-align: center;
+      padding: 10px 20px;
+      margin: 10px 20px;
+  }
+
+  .album_cover img{
+      height: 220px;
+      width: 220px;
+  }
+
+  li{
+      font-size: 20px;
+      font-weight: 700;
+  }
+
+  #music_videos{
+      background-color: #B3220F;
+      color: #E9EBED;
+  }
+
+  #music_videos h2{
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .music_video_galery{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  #tour_dates{
+      background-color: #F16E53;
+      color: #E9EBED;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  #tour_dates h2{
+      text-align: center;
+      font-size: 40px;
+      margin-top: 0;
+  }
+
+  #tour_dates table{
+      width: 65%;
+      margin-bottom: 20px;
+  }
+
+  .lm_design {
+      background-color: #B3220F;
+      color: #FFC475;
+      height: 30px;
+  }
+
+  .lm_design p{
+      margin-top: 0;
+  }
