@@ -78,6 +78,27 @@
       align-self: flex-end;
   }
 
+  @media only screen and (max-width: 480px){
+      .logo{
+          display: none; 
+      }
+
+      .navbar spam{
+        margin-left: 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    #banner{
+        font-size: 30px;
+        width: auto;
+    }
+
+    .albums_table{
+        width: auto;
+    }
+  }
+
   #banner{
       margin-top: 35px;
       background-image: url(./media/images/banner.jpg);
@@ -181,6 +202,7 @@
   .music_video_galery{
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap;
   }
 
   #tour_dates{
